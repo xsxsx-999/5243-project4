@@ -1,0 +1,5 @@
+ethnicity,n,actual_approval,predicted_approval,model_auc
+Ethnicity_Not_Available,5312,0.79,0.879,0.841
+Hispanic_or_Latino,5562,0.726,0.793,0.866
+Joint,1033,0.815,0.876,0.866
+Not_Hispanic_or_Latino,16072,0.822,0.889,0.853
