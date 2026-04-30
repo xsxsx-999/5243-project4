@@ -1,0 +1,16 @@
+# Data Manipulation & Math
+pandas
+numpy
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning Core
+scikit-learn
+lightgbm
+joblib
+
+# Model Explainability
+shap
