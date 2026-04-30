@@ -5,7 +5,7 @@ Designed for STATGR5243, this project establishes an end-to-end machine learning
 ## How to Run the Code
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/xsxsx-999/5243-project4.git](https://github.com/xsxsx-999/5243-project4.git)
+   git clone [https://github.com/xsxsx-999/5243-project4.git]
    cd 5243-project4
    ```
 
