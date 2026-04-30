@@ -26,23 +26,38 @@ Designed for STATGR5243, this project establishes an end-to-end machine learning
    jupyter notebook
    ```
 
-   ## Project Structure(to be modified)
-   ```
-   STATGR5243-Project4/
-   ├── app/
-   ├── data/
-   │   ├── data_prep.ipynb    
-   │   ├── data_prep_plots/
-   │   ├── HMDA_CA_TX_2019_2024_Master.csv
-   │   └── other csvs           
-   ├── eda_insights/
-   │   ├── eda_insights.ipynb
-   │   └── eda_insights_plots 
-   ├── model/
-   │   ├── modeling.ipynb
-   │   └── supportive files for cache & report
-   ├── report.ipynb
-   ├── report.pdf
-   └── appendix.ipynb
-   ```
+## Project Structure
+```
+5243-project4/
+├── README.md                          # Project documentation
+├── requirements.txt                    # Notebook/analysis dependencies
+├── report.ipynb                        # Main report notebook
+├── report.pdf                          # Rendered report
+├── appendix.ipynb                      # Appendix / extra analyses
+├── app/                                # Shiny for Python web app
+│   ├── app.py                          # App entry point
+│   ├── helpers.py                      # UI + explanation helpers
+│   ├── requirements.txt                # App runtime dependencies
+│   ├── rsconnect-python/               # Deployment metadata
+│   └── artifacts/                      # Exported artifacts used by the app
+├── data/                               # Data prep inputs/outputs
+│   ├── data_prep.ipynb                 # Cleaning + preprocessing notebook
+│   ├── HMDA_CA_TX_2019_2024_Master.csv # Raw master dataset
+│   ├── X_train_ohe.csv                 # Encoded training features (derived)
+│   ├── X_test_ohe.csv                  # Encoded test features (derived)
+│   ├── y_train.csv                     # Training labels (derived)
+│   ├── y_test.csv                      # Test labels (derived)
+│   └── data_prep_plots/                # Figures generated during preprocessing
+├── eda_insights/                       # EDA notebook + figures
+│   ├── eda_insights.ipynb
+│   └── eda_insights_plots/
+└── model/                              # Modeling notebook + artifacts/metrics/plots
+    ├── modeling.ipynb
+    ├── final_model.pkl                 # Trained model artifact
+    ├── feature_columns.json            # Feature schema used for inference
+    ├── test_metrics.csv                # Evaluation metrics
+    ├── cv_summary.csv                  # Cross-validation summary
+    ├── subgroup_rates.csv              # Group-level fairness/approval rates
+    └── (plots + SHAP outputs)          # e.g., calibration curves, SHAP summary, PDP
+```
 
