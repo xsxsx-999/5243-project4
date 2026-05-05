@@ -1,9 +1,8 @@
 plot_file
 fig06_numeric_signal_top15.png
+fig06_signal_features_top15_1x2.png
 fig07_categorical_signal_top15.png
 fig08_numeric_redundancy_heatmap.png
-fig09_svd_cumvar_9.png
-fig10_svd_cumvar_10.png
-fig11_svd_cumvar_11.png
 fig12_svd2_embedding.png
 fig13_ohe_lift.png
+fig14_svd_cumvar_1x3.png
