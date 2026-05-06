@@ -39,7 +39,6 @@ The final calibrated LightGBM model is deployed as an interactive R Shiny app:
 4. `report.ipynb` — final write-up integrating all sections
 5. `appendix.ipynb` — supplementary analyses
 
-> **Note on results:** All numerical results referenced in the report correspond to the saved artifacts under `model/results/`. Notebook outputs may be cleared before submission; rerunning the modeling notebook with the fixed `random_state` should reproduce these results.
 
 ## Project Structure
 
