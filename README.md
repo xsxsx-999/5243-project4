@@ -2,10 +2,6 @@
 
 **Team 23:** Veronica Joe (jj3470), Crystal Guo (lg3434), Shuxuan Xu (sx2412), Fangyi Lin (fl2748)
 
-**Github Repository:** https://github.com/xsxsx-999/5243-project4
-
-**Mortgage Approval Estimator ShinyApp:** https://crystalguo.shinyapps.io/mortgage-approval-estimator/
-
 ## Introduction
 
 Designed for STAT GR5243, this project establishes an end-to-end machine learning framework to decode mortgage application outcomes using the Home Mortgage Disclosure Act (HMDA) database. We developed a robust analytical pipeline — spanning from sophisticated feature engineering to predictive modeling — to isolate the critical drivers of lending decisions. The project culminates in a comprehensive analysis of applicant demographics and loan characteristics, providing data-driven insights into the complex factors that influence mortgage approval and denial in the U.S. housing market.
